@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2026 The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<!-- OnePlus 9 Pro front: top-left punch hole,
+     volume rocker on the left, alert slider and power key on the right. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="56dp"
+    android:height="117dp"
+    android:viewportWidth="78"
+    android:viewportHeight="163">
+
+    <!-- Body -->
+    <path
+        android:pathData="M11.25,1.25 h55.5 a9,9 0 0 1 9,9 v142.5 a9,9 0 0 1 -9,9 h-55.5 a9,9 0 0 1 -9,-9 v-142.5 a9,9 0 0 1 9,-9 z"
+        android:strokeColor="#FFFFFFFF"
+        android:strokeWidth="2.5" />
+
+    <!-- Punch hole -->
+    <path
+        android:pathData="M9,10.5 a2.6,2.6 0 1,0 5.2,0 a2.6,2.6 0 1,0 -5.2,0 z"
+        android:fillColor="#FFFFFFFF" />
+
+    <!-- Volume rocker, alert slider, power key -->
+    <path
+        android:pathData="M0,40 h1.5 v22 h-1.5 z M76.5,36 h1.5 v10 h-1.5 z M76.5,56 h1.5 v16 h-1.5 z"
+        android:fillColor="#FFFFFFFF" />
+</vector>
