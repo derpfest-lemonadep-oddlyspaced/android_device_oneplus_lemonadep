@@ -29,4 +29,9 @@
 
     <dimen name="keyguard_indication_margin_bottom">400px</dimen>
 
+    <!-- Center of the power key, used by the wake/sleep light reveal. In dp so it
+         holds across 1080p (450 dpi) and 1440p (600 dpi). The key center is
+         ~70 mm from the top edge, ~42.5% of the way down the panel. -->
+    <dimen name="physical_power_button_center_screen_location_y">365dp</dimen>
+
 </resources>
